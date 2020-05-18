@@ -24,6 +24,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="app-title">
+          Harvest. Analyze repository freshness.
+        </div>
         <div className="ZoomContainer">
           <button className="ZoomBtn" onClick={this.zoomIn}> Zoom in</button>
           <button className="ZoomBtn" onClick={this.zoomOut}> Zoom out</button>

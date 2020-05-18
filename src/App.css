@@ -63,3 +63,10 @@ html, body, #root, .App {
 .ZoomBtn:hover {
   background: #3b547c;
 }
+
+.app-title {
+  margin: 10px;
+  font-size: 30px;
+  text-align: left;
+  align-content: left;
+}
